@@ -14,8 +14,8 @@ public class Copy {
           "copy [source] [destination]"+
           "\n" +
           "Command line arguments:\n" +
-          " - If you type only 'copy [source]' it prints out the source\n" +
-          " - If you type both arguments 'copy [source] [destination]' the content of the source will be copied to the given destination\n";
+          " - If you type only 'copy' and source file [source.csv]' it prints out the source\n" +
+          " - If you type both arguments 'copy' and [source.csv] and [destination.csv]' the content of the source will be copied to the given destination\n";
 
 
   public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class Copy {
     } else if (args.length == 2) {
       copyFunctions.printOut(args, copiedThings, sourceFile);
     } else if (args.length == 3) {
-      copyFunctions.writeFile(args,copiedThings, sourceFile, copyToFile);
+      copyFunctions.writeFile(args, copiedThings, sourceFile, copyToFile);
     } else {
       System.out.println("Unsupported argument");
     }
