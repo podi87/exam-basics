@@ -36,14 +36,14 @@ The application is accepted if:
 
 #### Your answer:
 [add your answer here]   
-1:   
-2:   
-3:   
-4:   
-5:   
-6:   
-7:   
-8:   
+1: modifiers: it changes the accessibility of the method.
+2: method types: it could be return or void. Here the the type of method is return and it is returning with a double.
+3: name of the method
+4:the parameter of the method. here it is int type.
+5:the name of the int parameter.
+6:a temporary double what will be returned at the end of the method.
+7:the "heart" of the method is for loop which modifies the returning double.
+8:the returning value.
 
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
