@@ -47,4 +47,4 @@ The application is accepted if:
 
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
-[add your answer here]
+[Constructor instantiates a class, it is used when we want to use the methods and paramteres of the istantiated class, so we create a constructor for e.g. class X, and the class X can be instantiated in an other class e.g. class Y. For example, in class Y using the constructor of class X: "(X x = new X();" ]
